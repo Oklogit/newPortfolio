@@ -3,6 +3,7 @@ import tribalFluxPreview from "./previews/tribalfluximg.png";
 import portfolioPreview from "./previews/portfolioimg.png";
 import resourceBookmarkerPreview from "./previews/resbookmark.png";
 import toDoAppPreview from "./previews/todopic.png";
+import blogPreview from "./previews/bkblog.png";
 
 export const stats = [
     { num: "5", label: "Projects Built" },
@@ -74,13 +75,20 @@ export const projects = [
     },
 
     {
-        name: "Blog (Coming Soon)",
-        desc: "A blog website where users can share thoughts and experiences.",
-        tags: ["React", "Node.js"],
-        url: null,
-        preview: null,
+        name: "social app",
+        desc: "A blog like social media app where users can share thoughts and experiences.",
+        tags: [
+            "ReactJs",
+            "Node.js",
+            "PostgreSQL",
+            "TailwindCSS",
+            "JWT",
+            "Express",
+        ],
+        url: "https://bkblog-nodejs.vercel.app/",
+        preview: blogPreview,
         previewDesc:
-            "A blog website where users can share thoughts and experiences. Authentication, SQL for database, all implemented. This project is currently under development and will be launched soon.",
+            "A modern, full-stack blog web app built with Node.js and PostgreSQL, featuring secure JWT-based authentication and a clean, responsive UI powered by Tailwind CSS. Users can create and explore posts, engage through a dynamic comments section, and interact with content using like functionality.",
     },
 ];
 
