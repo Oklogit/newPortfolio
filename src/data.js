@@ -47,6 +47,22 @@ export const projects = [
             "Tribalflux is a startup that provides solutions to businesses, helping them thrive in the world. This website was built with a component-based architecture using React and TypeScript, ensuring scalability and maintainability. The design is fully responsive, providing an optimal user experience across desktop, tablet, and mobile devices. The website was deployed to Firebase, with performance optimization and accessibility considerations implemented throughout the development process.",
     },
     {
+        name: "social media app",
+        desc: "A blog like social media app where users can share thoughts and experiences.",
+        tags: [
+            "ReactJs",
+            "Node.js",
+            "PostgreSQL",
+            "TailwindCSS",
+            "JWT",
+            "Express",
+        ],
+        url: "https://bkblog-nodejs.vercel.app/",
+        preview: blogPreview,
+        previewDesc:
+            "A modern, full-stack social media web app built with Node.js and PostgreSQL, featuring secure JWT-based authentication and a clean, responsive UI powered by Tailwind CSS. Users can create and explore posts, engage through a dynamic comments section, and interact with content using like functionality.",
+    },
+    {
         name: "Portfolio",
         desc: "My personal portfolio website built with ReactJs.",
         tags: ["React", "CSS"],
@@ -72,23 +88,6 @@ export const projects = [
         preview: toDoAppPreview,
         previewDesc:
             "A simple to-do list app built with ReactJs, allowing users to manage their daily tasks and track progress.",
-    },
-
-    {
-        name: "social app",
-        desc: "A blog like social media app where users can share thoughts and experiences.",
-        tags: [
-            "ReactJs",
-            "Node.js",
-            "PostgreSQL",
-            "TailwindCSS",
-            "JWT",
-            "Express",
-        ],
-        url: "https://bkblog-nodejs.vercel.app/",
-        preview: blogPreview,
-        previewDesc:
-            "A modern, full-stack blog web app built with Node.js and PostgreSQL, featuring secure JWT-based authentication and a clean, responsive UI powered by Tailwind CSS. Users can create and explore posts, engage through a dynamic comments section, and interact with content using like functionality.",
     },
 ];
 
