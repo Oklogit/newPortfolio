@@ -2,7 +2,6 @@ import { useEffect, useRef, useState } from "react";
 import { stats } from "./data.js";
 import okloimg from "./assets/oklo.png";
 import resume from "./assets/Oklo_Solomon_Resume.pdf";
-import cssLogo from "./assets/csslogo.png";
 import { skills } from "./data.js";
 import { projects } from "./data.js";
 import { experience } from "./data.js";
