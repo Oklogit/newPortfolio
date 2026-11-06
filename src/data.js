@@ -41,7 +41,7 @@ export const projects = [
         name: "TribalFlux Landing Page",
         desc: "A responsive landing page for a startup built with modern web technologies.",
         tags: ["SCSS", "JavaScript"],
-        url: "https://tribalflux.com/",
+        url: "https://tribalflux.vercel.app/",
         preview: tribalFluxPreview,
         previewDesc:
             "Tribalflux is a startup that provides solutions to businesses, helping them thrive in the world. This website was built with a component-based architecture using React and TypeScript, ensuring scalability and maintainability. The design is fully responsive, providing an optimal user experience across desktop, tablet, and mobile devices. The website was deployed to Firebase, with performance optimization and accessibility considerations implemented throughout the development process.",
